@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my simple website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KIRA CLINIC</title>
+    <style>
+        /* Basic styles for the website */
+        body {
+            background-color: #007bff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gold;
+        }
+        header {
+            position: relative;
+            background: gold;
+            color:gold;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        header img.header-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        header .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:blue;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: transparent;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            z-index: 10;
+        }
+        nav a {
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            background: greenyellow;
+            border-radius: 4px;
+           
+        }
+        nav a:hover {
+            background: blueviolet;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background:blue;
+            border-radius: 5px;
+        }
+        #about p {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #ff8400;
+            
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .service-item img {
+            width: 600px;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background:burlywood;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <style>
+        .contact-container {
+            text-align: center;
+        }
+        .contact-details {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: hotpink;
+        }
+        .contact-item {
+            background-color:blue;
+            padding: 10px 15px;
+            border-radius: 5px;
+            
+            
+
+            
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="top-left-header">KIRA CLINIC</div>
+    <img src="https://midwestexpressclinic.com/wp-content/uploads/Illness-Treatment.jpg" alt="Treatment of Illness" class="header-image" />
+    <div class="header-text">
+        <h1>WELCOME TO KIRA CLINIC</h1>
+        <p>YOUR HELTH, OUR GOOD SERVICE</p>
+    </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>WELCOME TO KIRA CLINIC</h2>
+    <p>We are a private health center located in Nyagatare District, dedicated to providing high-quality healthcare services to our community.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+<li class="service-item">
+<li class="service-item">
+    <div><strong>Laboratory Testing:</strong> Comprehensive laboratory testing services to help diagnose conditions accurately.</div>
+    <img src="https://ubmnews.com/storage/2023/01/kira-hospital.jpg" alt="Laboratory Testing" />
+</li>
+<li class="service-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8KREnjitLqA3RH-KHAHCPba2yh7guZuOOUA&s" alt="Vaccination" />
+    <div><strong>Vaccination:</strong> Protect yourself and your loved ones with our vaccination services.</div>
+</li>
+    </ul>
+</section>
+
+    <section id="about">
+        <h2>About Kira Clinic</h2>
+        <p>Kira Clinic is committed to using advanced medical knowledge and technology to provide exceptional healthcare. Our team of qualified professionals is dedicated to ensuring that every patient receives personalized care in a welcoming environment.</p>
+    </section>
+<section id="contact">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <div class="contact-details">
+            <div class="contact-item"><strong>Phone:</strong> 0788654325</div>
+            <div class="contact-item"><strong>Email:</strong> info@kiraclinic.com</div>
+            <div class="contact-item"><strong>Location:</strong> Nyagatare District, Rwanda</div>
+        </div>
+        <form class="LOVE TO HEAR FROM YOU," action="#" method="post">
+            <fieldset>
+            <h3>LOVE TO HEAR FROM YOU</h3>
+            <label for="your Names">your Names:</label><br/><br/>
+            <input type="text" id="type your names" name="type your names" required/><br/>
+            <label for="Your Email">your Email:</label><br /><br/>
+            <input type="text" id="type Your Email" name="type your Email" required /><br/>
+            <label for="Subject">Subject:</label><br/><br/>
+            <input type="text" id="type Subject" name="type Subject" required /><br/>
+             <label for="Your message">Your message:</label><br/><br/>
+             <input type="text" id="type your message" name="type your message" required /><br />
+            <button type="Send Message">Send Message</button><br/><br/>
+            </fieldset>
+        </form>
+        <a href="alex_fixed.html">Submit</a>
+    </div>
+</section> 
+<style>
+    .login-form{
+        background-color: #007bff;
+        padding: 20px;
+        
+    }
+    #services ul li {
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .login-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        
+    }
+    .login-form button:hover {
+        background-color: #0056b3;
+    }
+    }
+</style>
+<div class="services-followus-container">
+  <div class="our-services">
+        <h1>KIRA CLINIC</h1>
+        <ul>
+            <li>Rwanda nyagatare district</li>
+            <li>sreet kv 20 st</li>
+            <li>phone=+250 786912034</li>
+            <li>Email:info@kira clinic.com</li> 
+        </ul>
+    </div>
+    <div class="our-services">
+        <h1>Our Services</h1>
+        <ul>
+            <li>treatment</li>
+            <li>vaccination</li>
+            <li>laboratory testing</li>
+        </ul>
+    </div>
+    <div class="follow-us">
+        <h1>Follow Us</h1>
+        <ul>
+            <li>email</li>
+            <li>contact on 0786912034</li>
+            <li>facebook: kira clinic</li>
+            <li><a href="location">location</a></li>
+        
+        </ul>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Kira Clinic. All we are WELCOME.
+</footer>
+<style>
+    .services-followus-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 20px 10px;
+    }
+    .our-services, .follow-us {
+        background: aqua;
+        padding: 15px 20px;
+        border-radius: 5px;
+        
+    }
+    .our-services {background-color: aqua;
+        flex: 1 1 50%;
+    }
+    .follow-us {
+        flex: 1 1 40%;
+    }
+    .our-services ul, .follow-us ul {
+        
+        list-style-type: disc;
+        padding-left: 20px;
+        font-size: 1.1em;
+        color: #333;
+        footer{
+            background-color: aqua;
+        }
+        .form{
+            background-color: aqua;
+            text-align: justify;
+        }
+    }
+</style>
+
+</body>
+</html>
